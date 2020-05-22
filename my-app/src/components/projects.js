@@ -15,6 +15,7 @@ class Projects extends Component {
           onChange={(tabID) => this.setState({ activeTab: tabID })}ripple>
 
               <Tab>React</Tab>
+              <Tab>Swift</Tab>
               <Tab>Java</Tab>
               <Tab>NodeJS</Tab>
               <Tab>MySQL</Tab>
