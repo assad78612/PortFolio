@@ -13,37 +13,53 @@ class Landing extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Full Stack Developer</h1>
 
               <hr />
 
               <p>
                 HTML/CSS | Java | JavaScript | React.js | React.Native | Swift |
-                NodeJS | MySQL</p>
+                NodeJS | MySQL
+              </p>
 
-                <div className="social-links">
-                    {/* LinkedIn Icon */}
-                    <a href="http://Google.com" rel="noopener noreferrer" target=" blank"> 
-                    <i className="fa fa-linkedin-square" aria-hidden="true" />
-                    </a>
+              <div className="social-links">
+                {/* LinkedIn Icon */}
+                <a
+                  href="http://Google.com"
+                  rel="noopener noreferrer"
+                  target=" blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
 
-                    {/* GitHub Icon */}
-                    <a href="http://Google.com" rel="noopener noreferrer" target=" blank"> 
-                    <i className="fa fa-github-square" aria-hidden="true" />
-                    </a>
+                {/* GitHub Icon */}
+                <a
+                  href="http://Google.com"
+                  rel="noopener noreferrer"
+                  target=" blank"
+                  
+                >
+                  <i className="fa fa-github-square" aria-hidden="true"/>
+                </a>
 
-                    {/* YouTube Icon */}
-                    <a href="http://Google.com" rel="noopener noreferrer" target=" blank"> 
-                    <i className="fa fa-youtube-square" aria-hidden="true" />
-                    </a>
+                {/* YouTube Icon */}
+                <a
+                  href="http://youtube.com"
+                  rel="noopener noreferrer"
+                  target=" blank"
+                >
+                  <i className="fa fa-youtube-square" aria-hidden="true" />
+                </a>
 
-                    {/* FaceBook Icon */}
-                    <a href="http://Google.com" rel="noopener noreferrer" target=" blank"> 
-                    <i className="fa fa-facebook-square" aria-hidden="true" />
-                    </a>
-
-
-                </div>
+                {/* FaceBook Icon */}
+                <a
+                  href="http://Google.com"
+                  rel="noopener noreferrer"
+                  target=" blank"
+                >
+                  <i className="fa fa-facebook-square" aria-hidden="true" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
