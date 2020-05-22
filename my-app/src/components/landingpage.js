@@ -15,8 +15,7 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Full Stack Developer</h1>
 
-              <hr />
-
+              <p>Programming Lanaguages</p>
               <p>
                 HTML/CSS | Java | JavaScript | React.js | React.Native | Swift |
                 NodeJS | MySQL
@@ -37,9 +36,8 @@ class Landing extends Component {
                   href="http://Google.com"
                   rel="noopener noreferrer"
                   target=" blank"
-                  
                 >
-                  <i className="fa fa-github-square" aria-hidden="true"/>
+                  <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
                 {/* YouTube Icon */}
