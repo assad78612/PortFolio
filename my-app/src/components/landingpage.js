@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+//eslint-disable-next-line 
+import AutoScale from 'react-auto-scale';
 
 class Landing extends Component {
   render() {
@@ -65,5 +67,7 @@ class Landing extends Component {
     );
   }
 }
-
+document.oncontextmenu = function() {
+  return false;
+}
 export default Landing;
