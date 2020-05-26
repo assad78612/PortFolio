@@ -67,7 +67,7 @@ class Landing extends Component {
     );
   }
 }
-// document.oncontextmenu = function() {
-//   return false;
-// }
+document.oncontextmenu = function() {
+  return false;
+}
 export default Landing;

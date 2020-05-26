@@ -14,7 +14,7 @@ class Contacts extends Component {
               style={{ height: "250px" }}
             />
 
-            <p style={{ width: "auto%", margin: "auto", paddingTop: '1em' }}>
+            <p style={{ width: "auto%", margin: "auto", paddingTop: "1em" }}>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -29,7 +29,7 @@ class Contacts extends Component {
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
-            <hr/>
+            <hr />
 
             <div className="contact-list">
               <List>
@@ -41,39 +41,37 @@ class Contacts extends Component {
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (020) 7403-6520
                   </ListItemContent>
-                  </ListItem>
+                </ListItem>
 
-                  {/* Facebook */}
-                  <ListItem>
+                {/* Facebook */}
+                <ListItem>
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-facebook" aria-hidden="true" />
                     (020) 7403-6520
                   </ListItemContent>
-                  </ListItem>
+                </ListItem>
 
-                  {/* Instagram */}
-                  <ListItem>
+                {/* Instagram */}
+                <ListItem>
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-instagram" aria-hidden="true" />
                     (020) 7403-6520
                   </ListItemContent>
-                  </ListItem>
+                </ListItem>
 
-                    {/* SnapChat */}
-                    <ListItem>
+                {/* SnapChat */}
+                <ListItem>
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-snapchat" aria-hidden="true" />
                     (020) 7403-6520
                   </ListItemContent>
-                  </ListItem>
-                  
-
+                </ListItem>
               </List>
             </div>
           </Cell>
