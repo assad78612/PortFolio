@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
-//eslint-disable-next-line 
-import AutoScale from 'react-auto-scale';
 
 class Landing extends Component {
   render() {
@@ -10,20 +8,21 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://cdn4.iconfinder.com/data/icons/diversity-v2-0-volume-03/64/footballer-soccer-iniesta-barcelona-spain-512.png"
+              src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-1.appspot.com/o/circle-cropped.png?alt=media&token=ef43b632-cf28-40b2-832c-eec5990c88f0"
               alt="avatar"
               className="avatar-img"
             />
             <div className="banner-text">
               <h1>Full Stack Developer</h1>
 
-              <p>Programming Lanaguages</p>
+              <p>Programming Lanaguages:</p>
               <p>
                 HTML/CSS | Java | JavaScript | React.js | React.Native | Swift |
                 NodeJS | MySQL
               </p>
 
               <div className="social-links">
+                
                 {/* LinkedIn Icon */}
                 <a
                   href="http://Google.com"
@@ -67,7 +66,7 @@ class Landing extends Component {
     );
   }
 }
-document.oncontextmenu = function() {
-  return false;
-}
+// document.oncontextmenu = function () {
+//   return false;
+// };
 export default Landing;
